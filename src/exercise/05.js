@@ -21,7 +21,7 @@ function Tilt({children}) {
   //
   // 💰 Don't forget to return a cleanup function. VanillaTilt.init will add an
   // object to your DOM node to cleanup:
-  // `return () => tiltNode.vanillaTilt.destroy()`
+  // `return () => tiltNode.VanillaTilt.destroy()`
   //
   // 💰 Don't forget to specify your effect's dependencies array! In our case
   // we know that the tilt node will never change, so make it `[]`. Ask me about
